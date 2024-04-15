@@ -20,6 +20,6 @@ app.get("/bipod", (req, res) => {
   res.send("hello bipod");
 });
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log("app is running on port", PORT);
 });
