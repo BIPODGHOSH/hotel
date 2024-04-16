@@ -27,6 +27,14 @@ const stafSchema = new mongoose.Schema({
     type: Number,
     required: true,
   },
+  userName: {
+    type: String,
+    required: true,
+  },
+  password: {
+    type: String,
+    required: true,
+  },
 });
 
 const Staf = mongoose.model("Staf", stafSchema);
